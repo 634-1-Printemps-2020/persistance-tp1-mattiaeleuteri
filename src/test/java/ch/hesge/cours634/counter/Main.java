@@ -33,13 +33,6 @@ public class Main {
             throw new IllegalArgumentException("constructeur test failed");
         }
 
-        // test inc
-        counter = new Counter();
-        counter.inc();
-        if (counter.getValue() != 1) {
-            throw new IllegalArgumentException("inc test failed");
-        }
-
         // test add
         counter = new Counter();
         counter.add(5);
